@@ -46,3 +46,15 @@ function squareSum(numbers){
       return result;
       
     }
+    //-----------------------------------------------------------------------------------------------
+    //Complete the solution so that it reverses the string passed into it.
+
+    function solution(str){
+      const arrStr = str.split("");
+       
+     const reversStr= arrStr.reverse();
+      const result= reversStr.join("");
+       return result;
+       
+     }
+     
