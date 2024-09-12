@@ -37,3 +37,12 @@ function century(year) {
     return Math.floor(((year-1) /100)+1);
   }
 
+//-----------------------------------------------------------------------------------------------
+//Complete the square sum function so that it squares each number passed into it and then sums the results together.
+function squareSum(numbers){
+    const square = numbers.map(el=> el*el);
+    return square.reduce((total,current)=> {
+    return total+current},0);
+      return result;
+      
+    }
