@@ -57,9 +57,21 @@ function squareSum(numbers){
        return result;
        
      }
+     console.log(solution('fdfdfh'));
+
    //---------------------------------------------------------------------------------------------------
      //Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
      function boolToWord( bool ){
       const result=  (bool === true? 'Yes': '')||(bool ===false? 'No':'');
      return result
-     }  
+     } 
+   //----------------------------------------------------------------------------------------------------
+   //A Needle in the Haystack
+   function findNeedle(haystack) {
+
+    let position = haystack.findIndex(i => i ==='needle');
+    let element = haystack.find((el) => el === 'needle' )?"found the needle at position "  :'' 
+    
+     return element + position
+    } 
+    console.log(findNeedle(['wewe','sdsd','needle']));
