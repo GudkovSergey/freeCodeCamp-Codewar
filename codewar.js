@@ -118,4 +118,16 @@ function squareSum(numbers){
             }
           }
         console.log(makeNegative(0))
+        //---------------------------------------------------------------------
+        //Find Maximum and Minimum Values of a List
+        var max = function(list){
+          
+          return list.reduce((acc, number) => (number > acc ? number : acc),list[0])
+      }
+      console.log(max([1,2,5,8,9,70]))
       
+      var min = function(list){
+          
+          return list.reduce((acc, number) => (number < acc ? number : acc),list[0])
+      }
+      console.log(min([1,2,5,8,9,70]))
