@@ -99,3 +99,12 @@ function squareSum(numbers){
           };
           
       console.log(rps('paper','rock'))
+      //--------------------------------------------------------------------
+      //bool
+      function boolfunc(bolean){
+        if(bolean===true){
+          return "Yes!"}else{
+            return "No!"
+          }
+        }
+      console.log(boolfunc(false))
