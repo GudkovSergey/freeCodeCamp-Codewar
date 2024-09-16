@@ -144,3 +144,10 @@ function squareSum(numbers){
         return result
         }
         console.log(fakeBin('15682436'))
+        //--------------------------------------------------------------------------
+        //Keep Hydrated!
+        function litres(time) {
+          let result = Math.floor(time*0.5)
+          return result;
+        }
+        console.log(litres(10.2))
