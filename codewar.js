@@ -131,3 +131,16 @@ function squareSum(numbers){
           return list.reduce((acc, number) => (number < acc ? number : acc),list[0])
       }
       console.log(min([1,2,5,8,9,70]))
+
+      //---------------------------------------------------------------------------
+      //Fake Binary
+      function fakeBin(x){
+        let xarr =x.split("");
+        let newx =xarr.map(function(el){
+         if(el<5){return el=0}else if(el>=5){return el=1}
+        });
+        const result = newx.join("")
+
+        return result
+        }
+        console.log(fakeBin('15682436'))
