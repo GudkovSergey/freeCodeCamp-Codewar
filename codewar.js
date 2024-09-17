@@ -171,3 +171,12 @@ function disemvowel(str) {
   return e;
 }
 console.log(disemvowel("ths wbst s fr lsrs LOL!"))
+//------------------------------------------------------------------------------
+//Grasshopper - Debug sayHello
+
+
+function sayHello(name) {
+ 
+  return 'Hello,'+" " + name
+}
+console.log(sayHello('grey'))
