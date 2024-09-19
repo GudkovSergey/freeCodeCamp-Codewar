@@ -200,3 +200,12 @@ function opposite(number) {
 }
 console.log(opposite(10))
 
+//------------------------------------------------------------------------------
+//Remove String Spaces
+
+
+function noSpace(x){
+  let noSpaces = x.replace(/\s/g, '');
+  return noSpaces
+}
+console.log(noSpace("vv vv vv "))
