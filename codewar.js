@@ -180,3 +180,23 @@ function sayHello(name) {
   return 'Hello,'+" " + name
 }
 console.log(sayHello('grey'))
+
+//------------------------------------------------------------------------------
+//Highest and Lowest
+
+
+function highAndLow(numbers){
+  let numbersArr = numbers.split("")
+  return numbersArr
+}
+console.log(highAndLow("1232564"))
+
+//------------------------------------------------------------------------------
+//Opposite number
+
+
+function opposite(number) {
+  return number*(-1)
+}
+console.log(opposite(10))
+
