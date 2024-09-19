@@ -209,3 +209,14 @@ function noSpace(x){
   return noSpaces
 }
 console.log(noSpace("vv vv vv "))
+
+//------------------------------------------------------------------------------
+//Ones and Zeros
+
+
+const binaryArrayToNumber = arr => {
+  const result = arr.join("")
+  const res = parseInt(result,2)
+   return res;
+ };
+console.log(binaryArrayToNumber([1,0,1,0,1]))
